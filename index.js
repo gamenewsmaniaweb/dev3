@@ -24,7 +24,7 @@ if ('serviceWorker' in navigator) {
 
   navigator.serviceWorker
 
-      .register('https://raw.githubusercontent.com/gamenewsmaniaweb/dev1/main/sw%20js')
+      .register('https://raw.githubusercontent.com/gamenewsmaniaweb/op/main/sw.js')
 
           .then(() => { console.log('Service Worker Registered'); });
 
