@@ -24,7 +24,7 @@ if ('serviceWorker' in navigator) {
 
   navigator.serviceWorker
 
-      .register('https://mdn.github.io/pwa-examples/a2hs/sw.js')
+      .register('https://raw.githubusercontent.com/gamenewsmaniaweb/fox/main/sw.js')
 
           .then(() => { console.log('Service Worker Registered'); });
 
