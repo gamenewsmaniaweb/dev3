@@ -18,7 +18,7 @@ setInterval(() => {
 
     }, 2000);
 
-// Register service worker to control making site work offline
+// Register service worker to control making site work offlines
 
 if ('serviceWorker' in navigator) {
 
